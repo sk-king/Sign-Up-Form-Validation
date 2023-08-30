@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+
+    <style>
+        body {
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          text-emphasis-color: white;
+        }
+        
+    table {
+        color: white;
+        background-color: black;
+        border-radius: 50px;
+        width: 500px;
+    }
+    #btn{
+        background-color: green;
+        color: white;
+        height: 35px;
+        width: 90px;
+        border-radius: 25px;
+    }
+    </style>
+</head>
+<body background="bg.jpg">
+    <br><br><br><br>
+    
+    <table align="center" border="0" cellspacing="15">
+        <form action="Login.html">
+    <tr><td align="center" colspan="2"><h1>Signup Form</h1></td></tr>
+        
+    <tr> <td>First Name: <td><input type="text" placeholder="Last Name" required></td></tr>
+    <tr> <td>Last Name: <td><input type="text" placeholder="Last Name" required></td>></tr>
+    <tr> <td>Mobile Number: <td><input type="number" placeholder="Mobile Number" required></td>></tr>
+    <tr> <td>Email: <td><input type="email" placeholder="Email" required> </td></tr>
+    <tr> <td>Password: <td><input type="text" placeholder="Password" required> </td></tr>
+    <tr> <td>Confirm Password: <td><input type="text" placeholder="Confirm Password" required></td></tr>
+    <tr> <td>Gender: <td><input type="radio" name="r1" required> Male <input type="radio" name="r1" required> Female </td></tr>
+    
+    <tr><td>DOB </td>
+    <td>
+        <select>
+        <option>Day</option>
+        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>
+        <option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option>
+        <option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option>
+        <option>31</option>
+        </select>
+        
+        <select>
+            <option>Month</option>
+            <option>jan</option><option>feb</option><option>mar</option><option>apr</option><option>may</option><option>jun</option><option>jul</option><option>aug</option><option>sep</option><option>oct</option>
+            <option>nov</option><option>dec</option>
+            </select>
+            
+        <select>
+            <option>Year</option>
+            <option>2010</option><option>2011</option><option>2012</option><option>2013</option><option>2014</option><option>2015</option><option>2016</option><option>2017</option><option>2018</option><option>2019</option>
+            <option>2020</option><option>2021</option>
+            </select>
+    </td></tr>
+
+<tr><td>
+    Languages known</td>
+<td>
+    <input type="checkbox" name="r1" > Enlish
+    <input type="checkbox" name="r1" > Urdu
+    <input type="checkbox"  > Punjabi
+</td></tr>
+
+<tr><td>
+    Adddress</td>
+    <td>
+        <textarea col="24"></textarea>
+</td></tr>
+
+    <tr> <td align="center" colspan="2"><a href="Login.html"><input type="Submit" id="btn"  ></a></td></tr>
+    <tr><td align="center"  colspan="2"> or <br> <a href="Login.html"> Login </a> </td></tr>
+    
+</form>
+</table>
+    
+</body>
+</html>
+
